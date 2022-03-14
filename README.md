@@ -54,7 +54,7 @@ Each song is formatted as follows:
     "categories": [
         "SDVXオリジナル"
     ]
-},
+}
 ```
 
 ## Notes
