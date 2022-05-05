@@ -2,6 +2,8 @@
 
 A simple web scraper to fetch the latest SOUND VOLTEX songlist and jacket art by merging the two regularly-updated official song pages ([arcade](https://p.eagate.573.jp/game/sdvx/vi/music/index.html) and [PC](https://p.eagate.573.jp/game/eacsdvx/vi/music/index.html)).
 
+Note as of 05-05-2022: I've rewritten it in an async version, but I still need to fix bugs lying around. Konami's servers have a lot of intermittent issues and my code doesn't gracefully handle errors yet, so the code often fails. Life is busy right now, but when I have more time I will fix this.
+
 ## Instructions
 
 Download and install Python 3, then run
